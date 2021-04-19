@@ -5,6 +5,17 @@ body{
 h1{
     color:rgb(142, 93, 175);
 }
+.header{
+    text-align: center;
+    width: 100%;
+    height: 125px;
+    padding: 25px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ;
+    color:#D2A787;
+}
 .card{
     text-align:center;
     background-color: white;
@@ -12,9 +23,10 @@ h1{
     height: 400px;
     width: 250px;
 }
-img{
-    height: 200px;
-    width: 150px;
-    margin: 5px;
-    
+.container {
+float: center;
+}
+.card{
+    height: 15rem;
+    width: 18rem;
 }
