@@ -1,5 +1,7 @@
 # Employee-Badge 
 [![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/ISC)
+
+
 ---
 ## Table of Contents
 
@@ -10,6 +12,7 @@
 * [Contributions](#contributions)
 * [Testing](#testing)
 * [Questions](#questions)
+*[Video](#video)
 
 ## Description
 This project allows users to generate a team of employees starting with a manager.
@@ -33,3 +36,7 @@ To test this project use the command "index.js" if any errors occur, you will be
 Contact the following with any additional questions:
 - Git Hub Profile: https://github.com/arianaw15
 - Email: arianaw15@gmail.com
+
+## Video
+[Full Video Here](https://drive.google.com/file/d/1zvVAHkIV3Z7Q-9Bb3_c2cvjPz81fUNs-/view?usp=sharing).
+![](/assets/Employee-Badge.gif)
