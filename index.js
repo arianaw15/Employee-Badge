@@ -72,11 +72,11 @@ const generateEngineerCard = (response) =>
   `<div class="col-sm">
   <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Engineer</h5>
+        <h5 class="card-title">Engineer<i class="large material-icons">developer_board</i></h5>
         <h6 class="card-subtitle mb-2 text-muted">${response.employeeFirstName} ${response.employeeLastName}</h6>
         <p class="card-text">Badge ID#: ${response.employeeID}<br>
         Email: ${response.employeeEmail}</p>
-        <i class="large material-icons">developer_board</i>
+        
       </div>
     </div>
     </div>`
@@ -84,11 +84,11 @@ const generateInternCard = (response) =>
   `<div class="col-sm">
   <div class="card">
   <div class="card-body">
-    <h5 class="card-title">Intern</h5>
+    <h5 class="card-title">Intern<i class="large material-icons">local_cafe</i></h5>
     <h6 class="card-subtitle mb-2 text-muted">${response.employeeFirstName} ${response.employeeLastName}</h6>
     <p class="card-text">Badge ID#: ${response.employeeID}<br>
     Email: ${response.employeeEmail}</p>
-    <i class="large material-icons">local_cafe</i>
+    
   </div>
 </div>
 </div>`
@@ -116,7 +116,7 @@ let generateHTML = (response) =>
       <div class="col-sm">
       <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Manager <i class="large material-icons">account_circle</i></h5>
+        <h5 class="card-title">Manager<i class="large material-icons">account_circle</i></h5>
         <h6 class="card-subtitle mb-2 text-muted">${response.firstName} ${response.lastName}</h6>
         <p class="card-text">Badge ID#: ${response.managerId}<br>
         Email: ${response.managerEmail}</p>
